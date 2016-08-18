@@ -1,0 +1,47 @@
+Project Code Name: Fetch
+
+March 21, 2016 - V0.01
+- Re-started Application project name "Fetch"
+- Linked Application to Firebase, using Firebase as our primary back-end database
+- Created Login & Registration view controller
+- - Initial view is the Login view, register button opens the Registration view
+- Created requestJobs view controller which will act as the core view controller for the app's functions
+- Added mapView to requestJobs view 
+
+March 22, 2016 - V0.02
+- Setup local Parse Server
+- Moved database from Firebase to Parse
+- Added Username, First name, Last name to reigsterVC
+- Cleaned up registerVC
+- Cleaned up requestMenuVC
+- Fixed sideMenu bug where it disappeared on return from Fetch requestMenuVC
+- Successfully implemented account creation/login/logout
+- Created basic menu options for requests
+
+March 23, 2016 - V0.02
+- Created basic request page
+- Added placeholder text to job description
+- Used pickerViews for Category & Time limits
+
+March 25, 2016 - V0.02
+- Created annotations on map for jobRequests obtained by the Parse db
+- Created a basic (work-in-progress) information pop-up for when annotation is touched
+- Working on assigning jobs and adding a chat system for users
+
+March 26 - April 4, 2016 - V0.02
+- Working on hand-drawn prototype for application to further define all necessary features 
+- Working to reduce views to reduce memory usage and increase efficiency
+
+April 5, 2016 - V0.02
+- Added a temporary launchScreen
+- Changed project from Fetch to HYVE and updated views accordingly
+
+April 6, 2016 - V0.02
+- Fixed searchBar so dismissal sets text to previousAddress
+
+
+NEXT TO FIX:
+MapView right navigation bar button to switch between listView and mapView
+informationView for annotations
+
+
